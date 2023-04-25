@@ -10,8 +10,6 @@ import math
 import itertools
 from scipy.spatial import ConvexHull
 import geojson
-from Utils2 import *
-import turtle
 
 
 pygame.init()
@@ -79,7 +77,6 @@ glLoadIdentity()
 load_province_data()
 clock = pygame.time.Clock()
 glLineWidth(1)
-clock = pygame.time.Clock()
 glColor(1.0, 1.0, 1.0, 1.0)
 
 # Create two surfaces, one for drawing and one for displaying
